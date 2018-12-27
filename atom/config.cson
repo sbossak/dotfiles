@@ -4,6 +4,7 @@
     disabledPackages: [
       "react"
     ]
+    telemetryConsent: "no"
     themes: [
       "one-dark-ui"
       "cobalt2-syntax"
@@ -16,9 +17,8 @@
       eol: " "
       tab: "⇨"
     preferredLineLength: 120
+    scrollPastEnd: true
     showInvisibles: true
-    softWrap: true
-    softWrapAtPreferredLineLength: true
     tabType: "soft"
   emmet: {}
   "exception-reporting":
