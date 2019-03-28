@@ -1,4 +1,8 @@
 "*":
+  "atom-package-deps":
+    ignored: [
+      "linter"
+    ]
   autoprefixer: {}
   core:
     disabledPackages: [
@@ -6,8 +10,8 @@
     ]
     telemetryConsent: "no"
     themes: [
-      "one-dark-ui"
-      "cobalt2-syntax"
+      "one-light-ui"
+      "one-light-syntax"
     ]
   editor:
     fontFamily: "Menlo"
@@ -19,6 +23,7 @@
     preferredLineLength: 120
     scrollPastEnd: true
     showInvisibles: true
+    softWrap: true
     tabType: "soft"
   emmet: {}
   "exception-reporting":
@@ -29,8 +34,7 @@
     supportLintingJsx: true
   linter:
     showErrorPanel: false
-  "markdown-preview":
-    useGitHubStyle: true
+  "markdown-preview": {}
   minimap:
     plugins:
       "highlight-selected": true
