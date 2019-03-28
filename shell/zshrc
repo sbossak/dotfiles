@@ -32,6 +32,8 @@ done
 unset dirs_to_prepend
 
 export PATH
+export JAVA_HOME=/usr/java/jdk-11.0.1
+export PATH=$PATH:$JAVA_HOME
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
