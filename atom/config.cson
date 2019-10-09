@@ -7,6 +7,7 @@
   core:
     disabledPackages: [
       "react"
+      "pretty-html"
     ]
     telemetryConsent: "no"
     themes: [
@@ -34,6 +35,8 @@
     supportLintingJsx: true
   linter:
     showErrorPanel: false
+  "linter-ui-default":
+    showPanel: true
   "markdown-preview": {}
   minimap:
     plugins:
