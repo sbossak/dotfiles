@@ -121,3 +121,7 @@ alias android='cd Documents/android/client-android'
 alias st='open /Applications/SourceTree.app'
 export VISUAL=subl
 export EDITOR="$VISUAL"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/sbossak/.sdkman"
+[[ -s "/Users/sbossak/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/sbossak/.sdkman/bin/sdkman-init.sh"
